@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action.php" method="post">
+    สาขา : <input type="text" name="branch" placeholder="ชื่อเต็ม/ย่อของสาขา"><br>
+    จำนวนเงินที่จะโอน : <input type="text" name="money" placeholder="จำนวนเงิน"> บาท<br>
+    อาหาร 5 ชนิดที่ชอบจากมากไปน้อย : <ol>
+        <li><input type="text" name="food1" placeholder="อาหารที่ชอบที่สุดอันดับ1"></li>
+        <li><input type="text" name="food2" placeholder="อาหารที่ชอบที่สุดอันดับ2"></li>
+        <li><input type="text" name="food3" placeholder="อาหารที่ชอบที่สุดอันดับ3"></li>
+        <li><input type="text" name="food4" placeholder="อาหารที่ชอบที่สุดอันดับ4"></li>
+        <li><input type="text" name="food5" placeholder="อาหารที่ชอบที่สุดอันดับ5"></li>
+    </ol>
+    ค่าไฟฟ้า 3 เดือนที่ผ่านมา : <input type="text" name="electricity bill" placeholder="ค่าไฟฟ้า 3 เดือนล่าสุด"><br>
+    เลขบัตรประจำตัวประชาชน : <input type="text" name="ID number" placeholder="หมายเลขประจำตัวประชาชน"><br>
+    <label>ความพึงพอใจของหนักสือเล่มนี้ :
+        <input type="radio" name="book" value="5" checked/>5
+        <input type="radio" name="book" value="4"/>4
+        <input type="radio" name="book" value="3"/>3
+        <input type="radio" name="book" value="2"/>2
+        <input type="radio" name="book" value="1"/>1
+    </label><br>
+    อาการป่วย : <input type="name" name="illness" placeholder="อาการป่วย"><br>
+    <label>ช่วง 3 เดือนที่ผ่านมาเคยได้รับวัคซีนหรือไม่ : 
+        <input type="radio" name="vaccine" value="เคย" checked>เคย
+        <input type="radio" name="vaccine" value="ไม่เคย">ไม่เคย
+    </label><br>
+    รหัสผ่าน : <input type="password" name="password" placeholder="รหัสผ่าน"><br>
+    เวลาเข้าเรียน : <input type="time" name="time in" placeholder><br>
+    เวลาเลิกเรียน : <input type="time" name="time out" placeholder><br>
+    เวลาที่ต้องไปพบแพทย์ : <input type="date" name="time" placeholder>
+    เวลา <input type="time" name="time" placeholder><br>
+    </form>
+</body>
+</html>
